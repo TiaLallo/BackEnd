@@ -9,3 +9,6 @@ C:\Dev\BackEnd\WebApiExample\WebApiExample\obj\Debug\netcoreapp2.2\WebApiExample
 C:\Dev\BackEnd\WebApiExample\WebApiExample\obj\Debug\netcoreapp2.2\WebApiExample.AssemblyInfoInputs.cache
 C:\Dev\BackEnd\WebApiExample\WebApiExample\obj\Debug\netcoreapp2.2\WebApiExample.AssemblyInfo.cs
 C:\Dev\BackEnd\WebApiExample\WebApiExample\obj\Debug\netcoreapp2.2\WebApiExample.RazorTargetAssemblyInfo.cache
+C:\Dev\BackEnd\WebApiExample\WebApiExample\bin\Debug\netcoreapp2.2\WebApiExample.pdb
+C:\Dev\BackEnd\WebApiExample\WebApiExample\obj\Debug\netcoreapp2.2\WebApiExample.dll
+C:\Dev\BackEnd\WebApiExample\WebApiExample\obj\Debug\netcoreapp2.2\WebApiExample.pdb
