@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using WebApiExample.Utilities;
 
 namespace WebApiExample.Controllers
 {
@@ -14,7 +15,10 @@ namespace WebApiExample.Controllers
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
         {
-            return new string[] { "value1", "value2" };
+            string psw = "HelloWorld!";
+            string salt = "Tia";
+            var secretWord = PasswordHash.HashPassword(psw, salt);
+            return new string[] { psw, secretWord };
         }
 
         // GET api/values/5

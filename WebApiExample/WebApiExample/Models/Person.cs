@@ -22,6 +22,7 @@ namespace WebApiExample.Models
         [StringLength(10)]
         public string Name { get; set; }
         public short? Age { get; set; }
+        public string Psw { get; set; }
 
         [InverseProperty("Person")]
         public virtual ICollection<Phone> Phone { get; set; }
